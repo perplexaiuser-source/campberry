@@ -1,0 +1,122 @@
+{
+  "categories": [
+    { "id": "summer", "name": "Summer Programs", "icon": "☀️", "count": 1200 },
+    { "id": "stem", "name": "STEM", "icon": "🔬", "count": 800 },
+    { "id": "business", "name": "Business", "icon": "💼", "count": 400 },
+    { "id": "coding", "name": "Coding", "icon": "💻", "count": 350 },
+    { "id": "writing", "name": "Writing", "icon": "✍️", "count": 200 },
+    { "id": "leadership", "name": "Leadership", "icon": "🌟", "count": 250 },
+    { "id": "research", "name": "Research", "icon": "📚", "count": 180 },
+    { "id": "engineering", "name": "Engineering", "icon": "⚙️", "count": 300 },
+    { "id": "arts", "name": "Arts & Music", "icon": "🎨", "count": 220 },
+    { "id": "competition", "name": "Competitions", "icon": "🏆", "count": 200 },
+    { "id": "free", "name": "Free", "icon": "🎁", "count": 150 },
+    { "id": "medical", "name": "Medical", "icon": "🏥", "count": 100 }
+  ],
+  "programs": [
+    {
+      "id": 1,
+      "title": "MIT LaunchX",
+      "provider": "MIT",
+      "website": "https://launchx.com",
+      "category": "summer",
+      "tags": ["Business", "Entrepreneurship", "Selective", "Paid"],
+      "description": "Summer entrepreneurship program for high school students to build real startups.",
+      "cost": "$2,500+",
+      "location": "In-Person",
+      "duration": "4 weeks",
+      "deadline": "January-February"
+    },
+    {
+      "id": 2,
+      "title": "Stanford Pre-College",
+      "provider": "Stanford University",
+      "website": "https://precollege.stanford.edu",
+      "category": "summer",
+      "tags": ["Liberal Arts", "Research", "Prestigious", "College Credit"],
+      "description": "Summer programs for high school students covering various disciplines.",
+      "cost": "$1,000-$15,000",
+      "location": "Stanford, CA",
+      "duration": "2-8 weeks",
+      "deadline": "Rolling"
+    },
+    {
+      "id": 3,
+      "title": "Harvard Summer School",
+      "provider": "Harvard University",
+      "website": "https://summer.schools.harvard.edu",
+      "category": "summer",
+      "tags": ["Liberal Arts", "College Credit", "Prestigious"],
+      "description": "Credit-bearing summer courses for high school students.",
+      "cost": "$2,900-$15,000",
+      "location": "Harvard, MA",
+      "duration": "2-7 weeks",
+      "deadline": "Rolling"
+    },
+    {
+      "id": 4,
+      "title": "Yale Young Writers Workshop",
+      "provider": "Yale University",
+      "website": "https://english.yale.edu/yale-young-writers",
+      "category": "writing",
+      "tags": ["Writing", "Creative", "Summer"],
+      "description": "Intensive writing program for aspiring writers.",
+      "cost": "$2,000",
+      "location": "Yale, CT",
+      "duration": "2 weeks",
+      "deadline": "March"
+    },
+    {
+      "id": 5,
+      "title": "Khan Academy",
+      "provider": "Khan Academy",
+      "website": "https://khanacademy.org",
+      "category": "coding",
+      "tags": ["Free", "Online", "Self-Paced"],
+      "description": "Free online learning platform for coding and academic subjects.",
+      "cost": "Free",
+      "location": "Online",
+      "duration": "Self-Paced",
+      "deadline": "None"
+    },
+    {
+      "id": 6,
+      "title": "Google Code Next",
+      "provider": "Google",
+      "website": "https://codenext.withgoogle.com",
+      "category": "coding",
+      "tags": ["Free", "Computer Science", "Hands-On", "Underrepresented"],
+      "description": "Free computer science education program for high school students.",
+      "cost": "Free",
+      "location": "In-Person (Select Cities)",
+      "duration": "School Year",
+      "deadline": "Fall"
+    },
+    {
+      "id": 7,
+      "title": "Triton AI Summer Program",
+      "provider": "UC San Diego",
+      "website": "https://aicamp.ucsd.edu",
+      "category": "stem",
+      "tags": ["AI", "Machine Learning", "Summer"],
+      "description": "AI and machine learning summer program for high schoolers.",
+      "cost": "$500-$2,000",
+      "location": "UC San Diego, CA",
+      "duration": "2 weeks",
+      "deadline": "May"
+    },
+    {
+      "id": 8,
+      "title": "Telluride Association Summer Programs",
+      "provider": "Telluride Association",
+      "website": "https://tellurideassociation.org",
+      "category": "summer",
+      "tags": ["Liberal Arts", "Selective", "Free", "Full Ride"],
+      "description": "Free residential summer programs with full scholarships.",
+      "cost": "Free (Full Ride)",
+      "location": "Various Universities",
+      "duration": "5 weeks",
+      "deadline": "January"
+    }
+  ]
+}
