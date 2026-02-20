@@ -175,7 +175,7 @@ const programs = [
   { id: 178, title: 'Dance', provider: 'Broadway Dance', category: 'arts', tags: ['Dance', 'Performance'], description: 'Dance programs.', cost: 'Paid', website: 'https://broadwaydancecenter.com' },
   { id: 179, title: 'Photography', provider: 'Photography', category: 'arts', tags: ['Visual Arts', 'Media'], description: 'Photography courses.', cost: 'Paid', website: 'https://precision-camera.com' },
   { id: 180, title: 'Cooking', provider: 'Culinary Institute', category: 'stem', tags: ['Culinary', 'Food'], description: 'Culinary programs.', cost: 'Paid', website: 'https://ciachef.edu' },
-  { id: 181, title: 'Baking', option: 'Pastry Arts', category: 'stem', tags: ['Culinary', 'Baking'], description: 'Baking programs.', cost: 'Paid', website: 'https://pastryarts.org' },
+  { id: 181, title: 'Baking', provider: 'Pastry Arts', category: 'stem', tags: ['Culinary', 'Baking'], description: 'Baking programs.', cost: 'Paid', website: 'https://pastryarts.org' },
   { id: 182, title: 'Sommelier', provider: 'Wine School', category: 'stem', tags: ['Wine', 'Hospitality'], description: 'Wine certification.', cost: 'Paid', website: 'https://wineschool.org' },
   { id: 183, title: 'Bartending', provider: 'USBA', category: 'stem', tags: ['Hospitality', 'Service'], description: 'Bartending school.', cost: 'Paid', website: 'https://usba.org' },
   { id: 184, title: 'Hotel Management', provider: 'Cornell SC Johnson', category: 'business', tags: ['Hospitality', 'Business'], description: 'Hotel management.', cost: 'Paid', website: 'https://sha.cornell.edu' },
