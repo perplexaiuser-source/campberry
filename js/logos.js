@@ -27,6 +27,7 @@ const collegeLogos = {
   'Northwestern': 'logos/Northwestern.png',
   'Kenyon': 'logos/Kenyon.png',
   'Iowa Writers': 'logos/Iowa.png',
+  'U of Iowa': 'logos/Iowa.png',
   'edX': 'logos/edX.png',
   'MIT OCW': 'logos/MIT.png',
   'UC Berkeley': 'logos/UC Berkeley.png',
