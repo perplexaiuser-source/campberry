@@ -132,6 +132,7 @@ const collegeLogos = {
   'Georgia Tech': 'logos/Georgia tech.png',
   'Virginia Tech': 'logos/Virginia tech.png',
   'University of Texas': 'logos/UTAustin.png',
+  'UT Austin': 'logos/UTAustin.png',
   'WashU': 'logos/washu.png',
   'Rice': 'logos/Rice.png',
   'Dartmouth': 'logos/Dartmouth.png',
