@@ -122,6 +122,7 @@ const collegeLogos = {
   'University of Denver': 'logos/Denver.png',
   'Denver': 'logos/Denver.png',
   'University of Hawaii': 'logos/University of Hawaii.png',
+  'UH Manoa': 'logos/University of Hawaii.png',
   'University of Florida': 'logos/University of florida.png',
   'UF': 'logos/University of florida.png',
   'Penn State': 'logos/Penn.png',
