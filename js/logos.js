@@ -112,6 +112,7 @@ const collegeLogos = {
   'UC Davis': 'logos/UC davis.png',
   'UCI': 'logos/UC irvine.png',
   'UC Santa Barbara': 'logos/UCSB.png',
+  'UCSB': 'logos/UCSB.png',
   'Arizona State': 'logos/ASU.png',
   'University of Colorado': 'logos/University of colorado.png',
   'CU Boulder': 'logos/University of colorado.png',
