@@ -19,7 +19,7 @@ const collegeLogos = {
   'Wharton': 'logos/Penn.png',
   'Parsons': 'logos/Parsons.png',
   'Apple': 'logos/Apple.png',
-  'Girls Who Code': 'logos/GirlsWhoCode.png',
+  'Girls Who Code': 'logos/Girls_Who_Code.png',
   'Y Combinator': 'logos/YCombinator.png',
   'Babson': 'logos/Babson.png',
   'Northwestern': 'logos/Northwestern.png',
