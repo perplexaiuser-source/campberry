@@ -103,13 +103,13 @@ function searchByTag(tag) {
     'design': 'Design'
   };
   
-  const searchTag = tagMap[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
+  const searchTag = tagMap[tag] || (tag.charAt(0).toUpperCase() + tag.slice(1));
   
   const filtered = programs.filter(p => 
-    p.tags.some(t => t.toLowerCase().includes(tag)) ||
-    p.category === searchTag.toLowerCase() ||
-    p.title.toLowerCase().includes(tag) ||
-    p.description.toLowerCase().includes(tag)
+    (p.tags && p.tags.some(t => t && t.toLowerCase().includes(tag))) ||
+    (p.category && p.category === searchTag.toLowerCase()) ||
+    (p.title && p.title.toLowerCase().includes(tag)) ||
+    (p.description && p.description.toLowerCase().includes(tag))
   );
   
   renderPrograms(filtered);
@@ -625,11 +625,11 @@ function performSearch() {
   }
   
   const filtered = programs.filter(p => 
-    p.title.toLowerCase().includes(query) ||
-    p.provider.toLowerCase().includes(query) ||
-    p.tags.some(tag => tag.toLowerCase().includes(query)) ||
-    p.description.toLowerCase().includes(query) ||
-    p.category.toLowerCase().includes(query)
+    (p.title && p.title.toLowerCase().includes(query)) ||
+    (p.provider && p.provider.toLowerCase().includes(query)) ||
+    (p.tags && p.tags.some(tag => tag && tag.toLowerCase().includes(query))) ||
+    (p.description && p.description.toLowerCase().includes(query)) ||
+    (p.category && p.category.toLowerCase().includes(query))
   );
   
   renderPrograms(filtered);
