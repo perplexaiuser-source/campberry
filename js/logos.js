@@ -206,6 +206,7 @@ const collegeLogos = {
   'Academy of Art': 'logos/Academy of art.png',
   'Davidson': 'logos/Davidson.jpg',
   'UVA': 'logos/UVA.png',
+  'UVA Darden': 'logos/UVA.png',
 };
 
 // Get logo for a provider
