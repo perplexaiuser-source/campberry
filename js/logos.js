@@ -16,7 +16,7 @@ const collegeLogos = {
   'Khan Academy': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Khan_Academy_Logo_2018.svg/120px-Khan_Academy_Logo_2018.svg.png',
   'Google': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/120px-Google_%22G%22_Logo.svg.png',
   'Coursera': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coursera_logo_2022.svg/120px-Coursera_logo_2022.svg.png',
-  'Wharton': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wharton_School_logo.svg/120px-Wharton_School_logo.svg.png',
+  'Wharton': 'logos/Penn.png',
   'Parsons': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Parsons_The_New_School_for_Design_logo.svg/120px-Parsons_The_New_School_for_Design_logo.svg.png',
   'Apple': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/120px-Apple_logo_black.svg.png',
   'Girls Who Code': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Girls_Who_Code_logo.svg/120px-Girls_Who_Code_logo.svg.png',
