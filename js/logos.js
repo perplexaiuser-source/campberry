@@ -32,6 +32,7 @@ const collegeLogos = {
   'edX': 'logos/edX.png',
   'MIT OCW': 'logos/MIT.png',
   'UC Berkeley': 'logos/UC Berkeley.png',
+  'Berkeley Haas': 'logos/UC Berkeley.png',
   'UCLA': 'logos/UCLA.png',
   'NYU': 'logos/NYU.png',
   'NYU Tisch': 'logos/NYU.png',
