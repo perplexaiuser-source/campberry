@@ -130,6 +130,7 @@ const collegeLogos = {
   'WashU': 'logos/washu.png',
   'Rice': 'logos/Rice.png',
   'Dartmouth': 'logos/Dartmouth.png',
+  'Dartmouth Tuck': 'logos/Dartmouth.png',
   'Williams': 'logos/Williams.png',
   'Amherst': 'logos/amherst.png',
   'Swarthmore': 'logos/swarthmore.png',
