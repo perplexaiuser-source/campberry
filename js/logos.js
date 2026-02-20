@@ -158,12 +158,12 @@ const collegeLogos = {
   'BMES': 'logos/BMES.png',
   'AIAA': 'logos/AIAA.png',
   'Nike': 'logos/Nike.png',
-  'IMG Academy': 'logos/IMGAcademy.png',
+  'IMG Academy': 'logos/IMG.png',
   'Under Armour': 'logos/UnderArmour.png',
   'ESPN': 'logos/ESPN.png',
-  'NEC': 'logos/NEC.png',
+  'NEC': 'logos/NEC.jpg',
   'Yamaha': 'logos/Yamaha.png',
-  'Bands of America': 'logos/BandsOfAmerica.png',
+  'Bands of America': 'logos/USSC.png',
   'Summer Science Program': 'logos/MIT.png',
   'Clark Scholar': 'logos/MIT.png',
   'Simons Summer Research': 'logos/stony brook.png',
@@ -203,3 +203,4 @@ const collegeLogos = {
 function getProviderLogo(provider) {
   return collegeLogos[provider] || null;
 }
+  'Archaeology': 'logos/Archaeological.png',
