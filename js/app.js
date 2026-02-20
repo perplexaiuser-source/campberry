@@ -414,7 +414,7 @@ function renderPrograms(programList = programs) {
   grid.innerHTML = programList.map(program => `
     <div class="program-card" data-id="${program.id}">
       <div class="program-placeholder">
-        ${getCategoryIcon(program.category)}
+        ${getProgramLogo(program)}
       </div>
       <div class="program-content">
         <h3 class="program-title">${program.title}</h3>
@@ -559,7 +559,7 @@ function renderFavorites() {
   grid.innerHTML = favPrograms.map(program => `
     <div class="program-card" data-id="${program.id}">
       <div class="program-placeholder">
-        ${getCategoryIcon(program.category)}
+        ${getProgramLogo(program)}
       </div>
       <div class="program-content">
         <h3 class="program-title">${program.title}</h3>
@@ -589,6 +589,17 @@ function renderFavorites() {
 function getCategoryIcon(categoryId) {
   const cat = categories.find(c => c.id === categoryId);
   return cat ? cat.icon : '📦';
+}
+
+// Get program logo (college logo or category icon)
+function getProgramLogo(program) {
+  // Try to get provider logo first
+  const logo = getProviderLogo(program.provider);
+  if (logo) {
+    return `<img src="${logo}" alt="${program.provider}" class="program-logo" onerror="this.style.display='none';this.parentElement.innerHTML='${getCategoryIcon(program.category)}';">`;
+  }
+  // Fallback to category icon
+  return getCategoryIcon(program.category);
 }
 
 // Filter by category
