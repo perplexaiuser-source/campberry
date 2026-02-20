@@ -24,7 +24,7 @@ const programs = [
   { id: 8, title: 'Coursera', provider: 'Coursera', category: 'free', tags: ['Free', 'Online'], description: 'Free courses.', cost: 'Free', website: 'https://coursera.org' },
   { id: 9, title: 'Wharton Summer', provider: 'UPenn', category: 'business', tags: ['Business', 'Finance'], description: 'Business program.', cost: '$4,000+', website: 'https://wharton.upenn.edu' },
   { id: 10, title: 'RISD Pre-College', provider: 'RISD', category: 'arts', tags: ['Art', 'Design'], description: 'Build portfolio.', cost: '$3,000+', website: 'https://risd.edu' },
-  { id: 11, title: 'Stanford AI4ALL', provider: 'Stanford', category: 'stem', tags: ['AI', 'Machine Learning'], description: 'Intro to AI.', cost: 'Free', website: 'https://ai4all.stanford.edu' },
+  { id: 11, title: 'Stanford AI4ALL', provider: 'Stanford', category: 'stem', tags: ['AI', 'Machine Learning'], description: 'Intro to AI.', cost: 'Free', website: 'https://ai4all.spcs.stanford.edu/' },
   { id: 12, title: 'Yale Summer Session', provider: 'Yale', category: 'summer', tags: ['College Credit'], description: 'Yale courses.', cost: '$3,000+', website: 'https://summer.yale.edu' },
   { id: 13, title: 'Columbia Summer', provider: 'Columbia', category: 'summer', tags: ['NYC', 'Prestigious'], description: 'Columbia in NYC.', cost: '$2,500+', website: 'https://summer.columbia.edu' },
   { id: 14, title: 'Brown Pre-College', provider: 'Brown', category: 'summer', tags: ['Liberal Arts'], description: 'Explore interests.', cost: '$2,000+', website: 'https://precollege.brown.edu' },
