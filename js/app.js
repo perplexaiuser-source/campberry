@@ -42,9 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hero tag (interest tag under search)
     const heroTag = e.target.closest('.hero-tags .tag');
     if (heroTag) {
-      const categoryName = heroTag.textContent.toLowerCase();
-      console.log('Hero tag clicked:', categoryName);
-      // Map to category
+      const tagName = heroTag.textContent.toLowerCase().trim();
+      console.log('Hero tag clicked:', tagName);
+      
+      // First check if it's a category
       const categoryMap = {
         'summer': 'summer',
         'stem': 'stem',
@@ -57,16 +58,64 @@ document.addEventListener('DOMContentLoaded', () => {
         'sports': 'sports',
         'music': 'music'
       };
-      const category = categoryMap[categoryName];
+      
+      const category = categoryMap[tagName];
       if (category) {
         filterByCategory(category);
         // Scroll to programs section
         document.getElementById('programGrid').scrollIntoView({ behavior: 'smooth' });
+      } else {
+        // Search by tag (e.g., "AI", "Robotics", "Machine Learning")
+        searchByTag(tagName);
       }
       return;
     }
   });
 });
+
+// Search by tag
+function searchByTag(tag) {
+  const tagMap = {
+    'ai': 'AI',
+    'robotics': 'Robotics',
+    'machine learning': 'Machine Learning',
+    'computer science': 'CS',
+    'coding': 'Coding',
+    'programming': 'Coding',
+    'software': 'Software',
+    'engineering': 'Engineering',
+    'math': 'Math',
+    'science': 'Science',
+    'business': 'Business',
+    'writing': 'Writing',
+    'music': 'Music',
+    'art': 'Art',
+    'sports': 'Sports',
+    'research': 'Research',
+    'free': 'Free',
+    'summer': 'Summer',
+    'stem': 'STEM',
+    'tech': 'Tech',
+    'design': 'Design'
+  };
+  
+  const searchTag = tagMap[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
+  
+  const filtered = programs.filter(p => 
+    p.tags.some(t => t.toLowerCase().includes(tag)) ||
+    p.category === searchTag.toLowerCase() ||
+    p.title.toLowerCase().includes(tag) ||
+    p.description.toLowerCase().includes(tag)
+  );
+  
+  renderPrograms(filtered);
+  
+  if (filtered.length === 0) {
+    showNoResultsMessage();
+  } else {
+    scrollToPrograms();
+  }
+}
 
 // Auth Setup
 function setupAuth() {
@@ -567,6 +616,7 @@ function performSearch() {
   
   if (!query) {
     renderPrograms(programs);
+    scrollToPrograms();
     return;
   }
   
@@ -574,10 +624,38 @@ function performSearch() {
     p.title.toLowerCase().includes(query) ||
     p.provider.toLowerCase().includes(query) ||
     p.tags.some(tag => tag.toLowerCase().includes(query)) ||
-    p.description.toLowerCase().includes(query)
+    p.description.toLowerCase().includes(query) ||
+    p.category.toLowerCase().includes(query)
   );
   
   renderPrograms(filtered);
+  
+  if (filtered.length === 0) {
+    showNoResultsMessage();
+  } else {
+    scrollToPrograms();
+  }
+}
+
+function scrollToPrograms() {
+  const programSection = document.getElementById('programGrid');
+  if (programSection) {
+    programSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function showNoResultsMessage() {
+  const grid = document.getElementById('programGrid');
+  if (grid) {
+    grid.innerHTML = '<p style="text-align:center;color:#888;grid-column:1/-1;padding:40px;">No programs found for your search. Try different keywords like "robotics", "AI", "coding", "music", or browse by category below!</p>';
+  }
+}
+
+// Filter by category
+function filterByCategory(category) {
+  const filtered = programs.filter(p => p.category === category);
+  renderPrograms(filtered);
+  scrollToPrograms();
 }
 
 function renderLists() {
