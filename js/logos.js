@@ -207,4 +207,3 @@ const collegeLogos = {
 function getProviderLogo(provider) {
   return collegeLogos[provider] || null;
 }
-  'Archaeology': 'logos/Archaeological.png',
