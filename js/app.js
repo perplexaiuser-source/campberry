@@ -394,7 +394,7 @@ function getFavorites() {
     return Auth.getFavorites();
   }
   // Fallback to localStorage for non-logged in users
-  const saved = localStorage.getItem('summersprout_favorites');
+  const saved = localStorage.getItem('campberry_favorites');
   return saved ? JSON.parse(saved) : [];
 }
 
@@ -402,7 +402,7 @@ function saveFavorites(favs) {
   if (Auth.isLoggedIn()) {
     Auth.saveFavorites(favs);
   } else {
-    localStorage.setItem('summersprout_favorites', JSON.stringify(favs));
+    localStorage.setItem('campberry_favorites', JSON.stringify(favs));
   }
 }
 
@@ -428,7 +428,7 @@ function getLists() {
     return Auth.getLists();
   }
   // Fallback to localStorage for non-logged in users
-  const saved = localStorage.getItem('summersprout_lists');
+  const saved = localStorage.getItem('campberry_lists');
   return saved ? JSON.parse(saved) : [];
 }
 
@@ -436,7 +436,7 @@ function saveLists(lists) {
   if (Auth.isLoggedIn()) {
     Auth.saveLists(lists);
   } else {
-    localStorage.setItem('summersprout_lists', JSON.stringify(lists));
+    localStorage.setItem('campberry_lists', JSON.stringify(lists));
   }
 }
 
@@ -649,12 +649,12 @@ function setupListCreation() {
 
 // Ratings functions
 function getRatings() {
-  const saved = localStorage.getItem('summersprout_ratings');
+  const saved = localStorage.getItem('campberry_ratings');
   return saved ? JSON.parse(saved) : {};
 }
 
 function saveRatings(ratings) {
-  localStorage.setItem('summersprout_ratings', JSON.stringify(ratings));
+  localStorage.setItem('campberry_ratings', JSON.stringify(ratings));
 }
 
 function getRating(programId) {

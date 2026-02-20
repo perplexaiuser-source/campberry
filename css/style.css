@@ -1,7 +1,11 @@
-/* Sunnyday V2 - Unique Design (Not Snow.day) */
+/* Campberry - Find Your Perfect Program */
 
 :root {
-  /* Fresh, sprout-themed color palette */
+  /* Berry-themed color palette */
+  --berry-primary: #E84A5F;
+  --berry-secondary: #9B59B6;
+  --berry-light: #FF847C;
+  --berry-green: #6BCB77;
   --sprout-green: #6BCB77;
   --sprout-dark: #2D5A3D;
   --sun-yellow: #FFD93D;
@@ -17,7 +21,7 @@
   --white: #FFFFFF;
   
   /* Gradients */
-  --gradient-sprout: linear-gradient(135deg, var(--sprout-green), #4CAF50);
+  --gradient-berry: linear-gradient(135deg, var(--berry-primary), #4CAF50);
   --gradient-sunny: linear-gradient(135deg, var(--sun-yellow), var(--sun-orange));
   --gradient-sunset: linear-gradient(135deg, var(--sun-orange), var(--sun-pink));
   --gradient-ocean: linear-gradient(135deg, var(--sun-blue), var(--sun-purple));
@@ -109,7 +113,7 @@ body {
 .logo-text {
   font-size: 28px;
   font-weight: 800;
-  background: var(--gradient-sprout);
+  background: var(--gradient-berry);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -211,7 +215,7 @@ body {
   font-size: 56px;
   font-weight: 900;
   margin-bottom: var(--space-md);
-  background: var(--gradient-sprout);
+  background: var(--gradient-berry);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -386,7 +390,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 64px;
-  background: var(--gradient-sprout);
+  background: var(--gradient-berry);
 }
 
 .program-content {
@@ -568,7 +572,7 @@ body {
   width: 64px;
   height: 64px;
   border-radius: var(--radius-md);
-  background: var(--gradient-sprout);
+  background: var(--gradient-berry);
   display: flex;
   align-items: center;
   justify-content: center;

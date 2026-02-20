@@ -1,7 +1,7 @@
 // Summer Sprout - User Authentication System
 const Auth = {
-  USERS_KEY: 'summersprout_users',
-  CURRENT_USER_KEY: 'summersprout_current_user',
+  USERS_KEY: 'campberry_users',
+  CURRENT_USER_KEY: 'campberry_current_user',
 
   // Get all users
   getUsers() {
