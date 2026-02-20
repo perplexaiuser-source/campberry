@@ -42,7 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hero tag (interest tag under search)
     const heroTag = e.target.closest('.hero-tags .tag');
     if (heroTag) {
-      const tagName = heroTag.textContent.toLowerCase().trim();
+      let tagName = heroTag.textContent.toLowerCase().trim();
+      
+      // Remove emoji prefix (e.g., "🍓 Summer" -> "summer")
+      tagName = tagName.replace(/^[^\w\s]+/, '').trim();
+      
       console.log('Hero tag clicked:', tagName);
       
       // First check if it's a category
