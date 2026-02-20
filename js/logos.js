@@ -11,6 +11,8 @@ const collegeLogos = {
   'Cornell': 'logos/Cornell.png',
   'UPenn': 'logos/Penn.png',
   'Berklee': 'logos/Berklee.png',
+  'Berklee Online': 'logos/Berklee.png',
+  'Berklee College': 'logos/Berklee.png',
   'RISD': 'logos/RISD.png',
   'Juilliard': 'logos/Juilliard.png',
   'Khan Academy': 'logos/khan.png',
