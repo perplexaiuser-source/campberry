@@ -110,6 +110,7 @@ const collegeLogos = {
   'UC Santa Barbara': 'logos/UCSB.png',
   'Arizona State': 'logos/ASU.png',
   'University of Colorado': 'logos/University of colorado.png',
+  'CU Boulder': 'logos/University of colorado.png',
   'University of Miami': 'logos/university of miami.png',
   'University of Denver': 'logos/Denver.png',
   'University of Hawaii': 'logos/University of Hawaii.png',
