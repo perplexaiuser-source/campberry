@@ -762,10 +762,8 @@ function renderRatingStars(programId) {
       renderRatingStars(programId);
     }
   };
-}
-
-// Mobile menu
-document.addEventListener('DOMContentLoaded', () => {
+  
+  // Mobile menu
   const menuBtn = document.getElementById('mobileMenuBtn');
   const mobileMenu = document.getElementById('mobileMenu');
   
@@ -781,4 +779,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-});
+}
