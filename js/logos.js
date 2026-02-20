@@ -5,7 +5,7 @@ const collegeLogos = {
   'Harvard': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Harvard_University_coat_of_arms.svg/120px-Harvard_University_coat_of_arms.svg.png',
   'Yale': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Yale_University_logo.svg/120px-Yale_University_logo.svg.png',
   'Columbia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Columbia_University_seal.svg/120px-Columbia_University_seal.svg.png',
-  'Brown': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Brown_University_coat_of_arms.svg/120px-Brown_University_coat_of_arms.svg.png',
+  'Brown': 'logos/brown.jpg',
   'Duke': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Duke_Athletics_logo.svg/120px-Duke_Athletics_logo.svg.png',
   'Princeton': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Princeton_Athletics_logo.svg/120px-Princeton_Athletics_logo.svg.png',
   'Cornell': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cornell_Athletics_logo.svg/120px-Cornell_Athletics_logo.svg.png',
