@@ -96,6 +96,7 @@ const collegeLogos = {
   'Science Olympiad': 'logos/ScienceOlympiad.png',
   'Mathcamp': 'logos/MIT.png',
   'HCSSiM': 'logos/hampshire.png',
+  'Hampshire College': 'logos/hampshire.png',
   'CalArts': 'logos/Calarts.png',
   'Pratt': 'logos/pratt.webp',
   'Kellogg': 'logos/Kellogg.png',
