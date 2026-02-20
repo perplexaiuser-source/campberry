@@ -118,6 +118,7 @@ const collegeLogos = {
   'University of Colorado': 'logos/University of colorado.png',
   'CU Boulder': 'logos/University of colorado.png',
   'University of Miami': 'logos/university of miami.png',
+  'Miami': 'logos/university of miami.png',
   'University of Denver': 'logos/Denver.png',
   'University of Hawaii': 'logos/University of Hawaii.png',
   'University of Florida': 'logos/University of florida.png',
