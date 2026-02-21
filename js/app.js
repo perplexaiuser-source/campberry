@@ -327,7 +327,7 @@ function openModal(programId) {
   const modal = document.getElementById('programModal');
   const cat = categories.find(c => c.id === program.category);
   
-  document.getElementById('modalIcon').textContent = cat ? cat.icon : '📦';
+  document.getElementById('modalIcon').innerHTML = getProgramLogo(program);
   document.getElementById('modalTitle').textContent = program.title;
   document.getElementById('modalProvider').textContent = program.provider;
   document.getElementById('modalDescription').textContent = program.description;
