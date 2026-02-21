@@ -82,7 +82,7 @@ const collegeLogos = {
   'Amazon': 'logos/amazon.png',
   'Netflix': 'logos/Netflix.png',
   'Spotify': 'logos/spotify.png',
-  'Notion': 'logos/Notion.png',
+  'Notion': 'logos/notion.png',
   'Figma': 'logos/figma.png',
   'JPL': 'logos/Nasa.png',
   'Fermilab': 'logos/Fermilab.png',
