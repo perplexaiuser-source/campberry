@@ -102,7 +102,7 @@ body {
 
 .logo-img {
   height: auto;
-  width: 140px;
+  width: 140px !important;
 }
 
 .logo-icon {
@@ -135,7 +135,7 @@ body {
   text-decoration: none;
   color: var(--dark);
   font-weight: 700;
-  font-size: 13px;
+  font-size: 13px !important;
   padding: var(--space-sm) var(--space-md);
   border-radius: var(--radius-full);
   transition: var(--transition);
@@ -1005,7 +1005,7 @@ html {
   padding: 14px 18px;
   border: 2px solid var(--gray-200);
   border-radius: var(--radius-md);
-  font-size: 13px;
+  font-size: 13px !important;
   font-family: var(--font-body);
   transition: var(--transition);
 }
