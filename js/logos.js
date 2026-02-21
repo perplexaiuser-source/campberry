@@ -156,7 +156,7 @@ const collegeLogos = {
   'SCAD': 'logos/SCAD.png',
   'Ringling': 'logos/Ringling.png',
   'Full Sail': 'logos/FullSail.png',
-  'General Assembly': 'logos/GeneralAssembly.png',
+  'General Assembly': 'logos/GA.png',
   'Google UX': 'logos/google.webp',
   'AMA': 'logos/AMA.png',
   'Hootsuite': 'logos/Hootsuite.png',
