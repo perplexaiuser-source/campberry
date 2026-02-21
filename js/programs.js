@@ -189,7 +189,6 @@ const programs = [
   { id: 207, title: 'Marketing', provider: 'AMA', category: 'business', tags: ['Marketing', 'Digital'], description: 'Marketing cert.', cost: 'Paid', website: 'https://ama.org' },
   { id: 208, title: 'Social Media', provider: 'Hootsuite', category: 'business', tags: ['Marketing', 'Social Media'], description: 'Social media marketing.', cost: 'Paid', website: 'https://hootsuite.com' },
   { id: 209, title: 'SEO', provider: 'Moz', category: 'coding', tags: ['Marketing', 'Search'], description: 'SEO training.', cost: 'Paid', website: 'https://moz.com' },
-  { id: 210, title: 'Data Science', provider: 'Data Science', category: 'coding', tags: ['Data', 'Analytics'], description: 'Data science bootcamp.', cost: 'Paid', website: 'https://datascience.org' },
   { id: 211, title: 'Machine Learning', provider: 'Fast.ai', category: 'coding', tags: ['AI', 'Deep Learning'], description: 'ML courses.', cost: 'Free', website: 'https://fast.ai' },
   { id: 212, title: 'Cybersecurity', provider: '(ISC)2', category: 'coding', tags: ['Security', 'IT'], description: 'Cybersecurity cert.', cost: 'Paid', website: 'https://isc2.org' },
   { id: 213, title: 'Cloud Computing', provider: 'AWS', category: 'coding', tags: ['Cloud', 'Tech'], description: 'AWS training.', cost: 'Paid', website: 'https://aws.amazon.com' },
