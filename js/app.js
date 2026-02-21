@@ -386,26 +386,8 @@ function getProgramDeadline(program) {
     return program.deadline;
   }
   
-  // Most summer programs have deadlines in Jan-Feb for summer
-  // Free/prestigious programs often have earlier deadlines
-  const earlyDeadlines = ['MIT', 'Harvard', 'Yale', 'Stanford', 'Princeton', 'Columbia', 'Brown', 'Cornell', 'Duke', 'UPenn', 'Dartmouth', 'Williams', 'Amherst'];
-  
-  const provider = program.provider;
-  const title = program.title;
-  const tags = program.tags || [];
-  
-  // Free programs typically have earliest deadlines
-  if (program.cost === 'Free' || tags.includes('Free')) {
-    return 'February 1, 2026';
-  }
-  
-  // Prestigious programs
-  if (earlyDeadlines.some(d => provider && provider.includes(d))) {
-    return 'February 15, 2026';
-  }
-  
-  // Regular programs
-  return 'March 1, 2026';
+  // If no deadline is set, ask user to check website
+  return 'Check program website for actual deadline';
 }
 
 function openModal(programId) {
