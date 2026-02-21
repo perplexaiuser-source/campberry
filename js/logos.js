@@ -78,7 +78,7 @@ const collegeLogos = {
   'Stripe': 'logos/stripe.png',
   'Airbnb': 'logos/airbnb.svg',
   'Uber': 'logos/Uber.png',
-  'Twitter/X': 'logos/Twitter.png',
+  'Twitter/X': 'logos/Xai.png',
   'Amazon': 'logos/amazon.png',
   'Netflix': 'logos/Netflix.png',
   'Spotify': 'logos/spotify.png',
