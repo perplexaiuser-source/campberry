@@ -76,7 +76,7 @@ const collegeLogos = {
   'SpaceX': 'logos/spaceX.png',
   'Blue Origin': 'logos/blue origin.svg',
   'Stripe': 'logos/stripe.png',
-  'Airbnb': 'logos/Airbnb.png',
+  'Airbnb': 'logos/airbnb.svg',
   'Uber': 'logos/Uber.png',
   'Twitter/X': 'logos/Twitter.png',
   'Amazon': 'logos/amazon.png',
