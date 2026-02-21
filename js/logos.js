@@ -128,6 +128,7 @@ const collegeLogos = {
   'Penn State': 'logos/Penn.png',
   'Ohio State': 'logos/Ohio state.png',
   'University of Michigan': 'logos/University of michigan.png',
+  'Michigan Ross': 'logos/University of michigan.png',
   'UMich': 'logos/University of michigan.png',
   'Georgia Tech': 'logos/Georgia tech.png',
   'Virginia Tech': 'logos/Virginia tech.png',
