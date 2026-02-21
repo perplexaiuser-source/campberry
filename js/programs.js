@@ -236,7 +236,7 @@ const programs = [
   { id: 251, title: 'MIT RSI', provider: 'MIT', category: 'research', tags: ['Research', 'STEM', 'Prestigious'], description: 'Premier summer research program at MIT.', cost: 'Free', website: 'https://www.esp.org' },
   { id: 252, title: 'SSP', provider: 'Summer Science Program', category: 'research', tags: ['Research', 'STEM', 'Residential'], description: 'Research in astrophysics or biochemistry.', cost: 'Paid', website: 'https://summerscience.org' },
   { id: 253, title: 'Carnegie Mellon S3', provider: 'CMU', category: 'research', tags: ['Research', 'STEM', 'Intro'], description: 'Summer Session for Students.', cost: 'Paid', website: 'https://cmu.edu' },
-  { id: 254, title: 'Clark Scholars', provider: 'Clark Scholar', category: 'research', tags: ['Research', 'STEM', 'Free'], description: 'Free research program for high school students.', cost: 'Free', website: 'https://clarkscholars.org' },
+  { id: 254, title: 'Clark Scholars', provider: 'Clark Scholar', category: 'research', tags: ['Research', 'STEM', 'Free'], description: 'Free research program for high school students.', cost: 'Free', website: 'https://clarkscholarship.org' },
   { id: 255, title: 'Simons Summer Research', provider: 'Stony Brook', category: 'research', tags: ['Research', 'STEM', 'Long Island'], description: 'Authentic research experience.', cost: 'Paid', website: 'https://stonybrook.edu' },
 
   // Sports Programs
