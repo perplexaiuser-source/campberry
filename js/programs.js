@@ -164,7 +164,6 @@ const programs = [
   { id: 148, title: 'Wellesley', provider: 'Wellesley', category: 'summer', tags: ['Liberal Arts', 'Women'], description: 'Wellesley programs.', cost: '$2,500+', website: 'https://wellesley.edu' },
   { id: 178, title: 'Dance', provider: 'Broadway Dance', category: 'arts', tags: ['Dance', 'Performance'], description: 'Dance programs.', cost: 'Paid', website: 'https://broadwaydancecenter.com' },
   { id: 184, title: 'Hotel Management', provider: 'Cornell SC Johnson', category: 'business', tags: ['Hospitality', 'Business'], description: 'Hotel management.', cost: 'Paid', website: 'https://sha.cornell.edu' },
-  { id: 189, title: 'Banking', provider: 'Institute of Banking', category: 'business', tags: ['Finance', 'Banking'], description: 'Banking certification.', cost: 'Paid', website: 'https://bankersacademy.org' },
   { id: 190, title: 'Fashion Design', provider: 'FIT', category: 'arts', tags: ['Fashion', 'Design'], description: 'Fashion design.', cost: 'Paid', website: 'https://fitnyc.edu' },
   { id: 191, title: 'Interior Design', provider: 'NYIAD', category: 'arts', tags: ['Design', 'Interior'], description: 'Interior design.', cost: 'Paid', website: 'https://nyiad.edu' },
   { id: 192, title: 'Graphic Design', provider: 'AIGA', category: 'arts', tags: ['Design', 'Visual'], description: 'Graphic design.', cost: 'Paid', website: 'https://aiga.org' },
