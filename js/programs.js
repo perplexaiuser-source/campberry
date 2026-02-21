@@ -39,7 +39,7 @@ const programs = [
   { id: 23, title: 'Girls Who Code', provider: 'Girls Who Code', category: 'coding', tags: ['Free', 'Girls'], description: 'Coding for girls.', cost: 'Free', website: 'https://girlswhocode.com' },
   { id: 24, title: 'Y Combinator', provider: 'Y Combinator', category: 'business', tags: ['Startup', 'Tech'], description: 'Startup world.', cost: 'Free', website: 'https://ycombinator.com' },
   { id: 25, title: 'Babson Summer', provider: 'Babson', category: 'business', tags: ['Entrepreneurship'], description: 'Venture building.', cost: '$3,000+', website: 'https://babson.edu' },
-  { id: 26, title: 'Medill Journalism', provider: 'Northwestern', deadline: 'February 1, 2026', category: 'writing', tags: ['Journalism', 'Media'], description: 'Journalism at NU.', cost: '$3,000+', website: 'https://medill.northwestern.edu' },
+  { id: 26, title: 'Medill Journalism', provider: 'Northwestern', deadline: 'February 1, 2026', category: 'writing', tags: ['Journalism', 'Media'], description: 'Journalism at NU.', cost: '$3,000+', website: 'https://www.medill.northwestern.edu/journalism/high-school-programs/' },
   { id: 27, title: 'Kenyon Writing', provider: 'Kenyon', category: 'writing', tags: ['Writing', 'Literature'], description: 'Intensive writing.', cost: '$2,500+', website: 'https://kenyon.edu' },
   { id: 28, title: 'Iowa Writers', provider: 'U of Iowa', category: 'writing', tags: ['Writing', 'Residential'], description: 'Writing workshop.', cost: '$2,500', website: 'https://writersworkshop.uiowa.edu' },
   { id: 29, title: 'edX', provider: 'edX', category: 'free', tags: ['Free', 'Online'], description: 'Free Harvard/MIT.', cost: 'Free', website: 'https://edx.org' },
