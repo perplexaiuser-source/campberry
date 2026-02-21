@@ -181,7 +181,7 @@ const collegeLogos = {
   'Yamaha': 'logos/Yamaha.png',
   'Bands of America': 'logos/USSC.png',
   'Summer Science Program': 'logos/MIT.png',
-  'Clark Scholar': 'logos/MIT.png',
+  'Clark Scholar': 'logos/Clark.png',
   'Simons Summer Research': 'logos/stony brook.png',
   'YYGS': 'logos/yale.png',
   'YYGS Science': 'logos/yale.png',
