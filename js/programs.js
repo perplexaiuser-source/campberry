@@ -175,7 +175,6 @@ const programs = [
   { id: 192, title: 'Graphic Design', provider: 'AIGA', category: 'arts', tags: ['Design', 'Visual'], description: 'Graphic design.', cost: 'Paid', website: 'https://aiga.org' },
   { id: 193, title: 'Web Design', provider: 'General Assembly', category: 'coding', tags: ['Design', 'Web Dev'], description: 'Web design courses.', cost: 'Paid', website: 'https://generalassemb.ly' },
   { id: 194, title: 'UX Design', provider: 'Google UX', category: 'coding', tags: ['Design', 'User Experience'], description: 'UX certification.', cost: 'Paid', website: 'https://uxdesign.org' },
-  { id: 195, title: 'Product Design', provider: 'PDI', category: 'coding', tags: ['Design', 'Product'], description: 'Product design.', cost: 'Paid', website: 'https://productdesign.org' },
   { id: 196, title: 'Game Design', provider: 'Game Design', category: 'coding', tags: ['Gaming', 'Design'], description: 'Game design.', cost: 'Paid', website: 'https://gamedesign.org' },
   { id: 197, title: 'Animation', provider: 'Animation Guild', category: 'arts', tags: ['Animation', 'Film'], description: 'Animation training.', cost: 'Paid', website: 'https://animationguild.org' },
   { id: 198, title: 'VFX', provider: 'VFX', category: 'arts', tags: ['Film', 'Visual Effects'], description: 'VFX courses.', cost: 'Paid', website: 'https://visualeffectssociety.com' },
