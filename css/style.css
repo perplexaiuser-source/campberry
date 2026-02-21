@@ -87,7 +87,7 @@ body {
 .header-content {
   max-width: 1400px;
   margin: 0 auto;
-  padding: var(--space-md) var(--space-xl);
+  padding: var(--space-xs) var(--space-md);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,7 +102,7 @@ body {
 
 .logo-img {
   height: auto;
-  width: 180px;
+  width: 140px;
 }
 
 .logo-icon {
@@ -127,7 +127,7 @@ body {
 
 .nav {
   display: flex;
-  gap: var(--space-xl);
+  gap: var(--space-md);
   align-items: center;
 }
 
@@ -135,7 +135,7 @@ body {
   text-decoration: none;
   color: var(--dark);
   font-weight: 700;
-  font-size: 15px;
+  font-size: 13px;
   padding: var(--space-sm) var(--space-md);
   border-radius: var(--radius-full);
   transition: var(--transition);
@@ -369,7 +369,7 @@ body {
 .program-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: var(--space-xl);
+  gap: var(--space-md);
 }
 
 .program-card {
@@ -1005,7 +1005,7 @@ html {
   padding: 14px 18px;
   border: 2px solid var(--gray-200);
   border-radius: var(--radius-md);
-  font-size: 15px;
+  font-size: 13px;
   font-family: var(--font-body);
   transition: var(--transition);
 }
