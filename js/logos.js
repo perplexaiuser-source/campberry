@@ -84,7 +84,7 @@ const collegeLogos = {
   'Spotify': 'logos/spotify.png',
   'Notion': 'logos/Notion.png',
   'Figma': 'logos/figma.png',
-  'JPL': 'logos/JPL.png',
+  'JPL': 'logos/Nasa.png',
   'Fermilab': 'logos/Fermilab.png',
   'CERN': 'logos/CERN.png',
   'Peace Corps': 'logos/peace.png',
