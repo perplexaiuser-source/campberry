@@ -180,7 +180,7 @@ const collegeLogos = {
   'NEC': 'logos/NEC.jpg',
   'Yamaha': 'logos/Yamaha.png',
   'Bands of America': 'logos/USSC.png',
-  'Summer Science Program': 'logos/MIT.png',
+  'Summer Science Program': 'logos/ssp.svg',
   'Clark Scholar': 'logos/Clark.png',
   'Simons Summer Research': 'logos/stony brook.png',
   'YYGS': 'logos/yale.png',
