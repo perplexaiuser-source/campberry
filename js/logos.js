@@ -62,6 +62,7 @@ const collegeLogos = {
   'LSE': 'logos/LSE.png',
   'Imperial': 'logos/Imperial.png',
   'ETH Zurich': 'logos/ETH.png',
+  'ETH': 'logos/ETH.png',
   'UTokyo': 'logos/Utokyo.svg',
   'NUS': 'logos/NUS.png',
   'HKU': 'logos/HKU.png',
