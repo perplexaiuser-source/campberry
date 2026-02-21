@@ -45,6 +45,7 @@ const collegeLogos = {
   'Ross Program': 'logos/MIT.png',
   'Boston University': 'logos/BU.png',
   'Telluride Association': 'logos/telluride.webp',
+  'Telluride': 'logos/telluride.webp',
   'NASA': 'logos/Nasa.png',
   'NASA JSC': 'logos/Nasa.png',
   'Smith College': 'logos/smith.png',
