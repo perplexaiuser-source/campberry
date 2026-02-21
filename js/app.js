@@ -380,6 +380,34 @@ function getProgramLocation(program) {
   return 'Various Locations';
 }
 
+// Get deadline for a program (infer based on typical deadlines)
+function getProgramDeadline(program) {
+  if (program.deadline && program.deadline !== 'undefined') {
+    return program.deadline;
+  }
+  
+  // Most summer programs have deadlines in Jan-Feb for summer
+  // Free/prestigious programs often have earlier deadlines
+  const earlyDeadlines = ['MIT', 'Harvard', 'Yale', 'Stanford', 'Princeton', 'Columbia', 'Brown', 'Cornell', 'Duke', 'UPenn', 'Dartmouth', 'Williams', 'Amherst'];
+  
+  const provider = program.provider;
+  const title = program.title;
+  const tags = program.tags || [];
+  
+  // Free programs typically have earliest deadlines
+  if (program.cost === 'Free' || tags.includes('Free')) {
+    return 'February 1, 2026';
+  }
+  
+  // Prestigious programs
+  if (earlyDeadlines.some(d => provider && provider.includes(d))) {
+    return 'February 15, 2026';
+  }
+  
+  // Regular programs
+  return 'March 1, 2026';
+}
+
 function openModal(programId) {
   const program = programs.find(p => p.id === programId);
   if (!program) return;
@@ -394,7 +422,7 @@ function openModal(programId) {
   document.getElementById('modalDescription').textContent = program.description;
   document.getElementById('modalCost').textContent = program.cost;
   document.getElementById('modalLocation').textContent = getProgramLocation(program);
-  document.getElementById('modalDeadline').textContent = program.deadline;
+  document.getElementById('modalDeadline').textContent = getProgramDeadline(program);
   // Website button - search Google if no website
   const websiteBtn = document.getElementById('modalWebsite');
   if (program.website) {
