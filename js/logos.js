@@ -95,7 +95,7 @@ const collegeLogos = {
   'Air Force Academy': 'logos/USAFA.png',
   'USAFA': 'logos/USAFA.png',
   'DECA': 'logos/DECA.png',
-  'Science Olympiad': 'logos/ScienceOlympiad.png',
+  'Science Olympiad': 'logos/Science olympiad.gif',
   'Mathcamp': 'logos/MIT.png',
   'HCSSiM': 'logos/hampshire.png',
   'Hampshire College': 'logos/hampshire.png',
