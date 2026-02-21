@@ -319,6 +319,67 @@ function setupModal() {
   }
 }
 
+// Get location for a program (infer from provider if not set)
+function getProgramLocation(program) {
+  if (program.location && program.location !== 'undefined') {
+    return program.location;
+  }
+  
+  // Try to infer from provider
+  const locationMap = {
+    'MIT': 'Cambridge, MA',
+    'Stanford': 'Stanford, CA',
+    'Harvard': 'Cambridge, MA',
+    'Yale': 'New Haven, CT',
+    'Columbia': 'New York, NY',
+    'Princeton': 'Princeton, NJ',
+    'Cornell': 'Ithaca, NY',
+    'Brown': 'Providence, RI',
+    'Duke': 'Durham, NC',
+    'UPenn': 'Philadelphia, PA',
+    'NYU': 'New York, NY',
+    'UCLA': 'Los Angeles, CA',
+    'UC Berkeley': 'Berkeley, CA',
+    'USC': 'Los Angeles, CA',
+    'Georgetown': 'Washington, DC',
+    'Northwestern': 'Evanston, IL',
+    'Johns Hopkins': 'Baltimore, MD',
+    'Carnegie Mellon': 'Pittsburgh, PA',
+    'Boston University': 'Boston, MA',
+    'Berklee': 'Boston, MA',
+    'Parsons': 'New York, NY',
+    'RISD': 'Providence, RI',
+    'Juilliard': 'New York, NY',
+    'Khan Academy': 'Online',
+    'Google': 'Online',
+    'Coursera': 'Online',
+    'edX': 'Online',
+    'Khan Academy': 'Online',
+    'Girls Who Code': 'Online',
+    'Y Combinator': 'Online',
+    'General Assembly': 'Online',
+    'Apple': 'Cupertino, CA',
+    'Microsoft': 'Redmond, WA',
+    'Amazon': 'Seattle, WA',
+    'Meta': 'Menlo Park, CA',
+    'NVIDIA': 'Santa Clara, CA',
+    'SpaceX': 'Hawthorne, CA',
+    'NASA': 'Washington, DC',
+  };
+  
+  const provider = program.provider;
+  if (provider && locationMap[provider]) {
+    return locationMap[provider];
+  }
+  
+  // Check tags for online programs
+  if (program.tags && program.tags.some(tag => tag.toLowerCase().includes('online'))) {
+    return 'Online';
+  }
+  
+  return 'Various Locations';
+}
+
 function openModal(programId) {
   const program = programs.find(p => p.id === programId);
   if (!program) return;
@@ -332,7 +393,7 @@ function openModal(programId) {
   document.getElementById('modalProvider').textContent = program.provider;
   document.getElementById('modalDescription').textContent = program.description;
   document.getElementById('modalCost').textContent = program.cost;
-  document.getElementById('modalLocation').textContent = program.location;
+  document.getElementById('modalLocation').textContent = getProgramLocation(program);
   document.getElementById('modalDeadline').textContent = program.deadline;
   // Website button - search Google if no website
   const websiteBtn = document.getElementById('modalWebsite');
@@ -422,7 +483,7 @@ function renderPrograms(programList = programs) {
         <p style="font-size:14px;color:#666;margin-bottom:12px;">${program.description}</p>
         <div style="display:flex;gap:8px;margin-bottom:8px;color:#888;font-size:12px;">
           <span>💰 ${program.cost}</span>
-          <span>📍 ${program.location}</span>
+          <span>📍 ${getProgramLocation(program)}</span>
         </div>
         <div class="program-tags">
           ${program.tags.map(tag => `<span class="program-tag">${tag}</span>`).join('')}
@@ -567,7 +628,7 @@ function renderFavorites() {
         <p style="font-size:14px;color:#666;margin-bottom:12px;">${program.description}</p>
         <div style="display:flex;gap:8px;margin-bottom:8px;color:#888;font-size:12px;">
           <span>💰 ${program.cost}</span>
-          <span>📍 ${program.location}</span>
+          <span>📍 ${getProgramLocation(program)}</span>
         </div>
         <div class="program-tags">
           ${program.tags.map(tag => `<span class="program-tag">${tag}</span>`).join('')}
