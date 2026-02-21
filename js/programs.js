@@ -165,7 +165,6 @@ const programs = [
   { id: 178, title: 'Dance', provider: 'Broadway Dance', category: 'arts', tags: ['Dance', 'Performance'], description: 'Dance programs.', cost: 'Paid', website: 'https://broadwaydancecenter.com' },
   { id: 179, title: 'Photography', provider: 'Photography', category: 'arts', tags: ['Visual Arts', 'Media'], description: 'Photography courses.', cost: 'Paid', website: 'https://precision-camera.com' },
   { id: 184, title: 'Hotel Management', provider: 'Cornell SC Johnson', category: 'business', tags: ['Hospitality', 'Business'], description: 'Hotel management.', cost: 'Paid', website: 'https://sha.cornell.edu' },
-  { id: 186, title: 'Real Estate', provider: 'NAR', category: 'business', tags: ['Real Estate', 'Sales'], description: 'Real estate license.', cost: 'Paid', website: 'https://nar.org' },
   { id: 187, title: 'Insurance', provider: 'CII', category: 'business', tags: ['Finance', 'Insurance'], description: 'Insurance licensing.', cost: 'Paid', website: 'https://cii.org' },
   { id: 188, title: 'Financial Planning', provider: 'CFP', category: 'business', tags: ['Finance', 'Planning'], description: 'Financial planning cert.', cost: 'Paid', website: 'https://cfp.net' },
   { id: 189, title: 'Banking', provider: 'Institute of Banking', category: 'business', tags: ['Finance', 'Banking'], description: 'Banking certification.', cost: 'Paid', website: 'https://bankersacademy.org' },
