@@ -74,7 +74,7 @@ const collegeLogos = {
   'Meta': 'logos/meta.png',
   'NVIDIA': 'logos/Nvidia.png',
   'SpaceX': 'logos/spaceX.png',
-  'Blue Origin': 'logos/BlueOrigin.png',
+  'Blue Origin': 'logos/blue origin.svg',
   'Stripe': 'logos/Stripe.png',
   'Airbnb': 'logos/Airbnb.png',
   'Uber': 'logos/Uber.png',
