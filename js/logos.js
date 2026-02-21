@@ -9,6 +9,7 @@ const collegeLogos = {
   'Duke': 'logos/duke.png',
   'Princeton': 'logos/Princeton.png',
   'Cornell': 'logos/Cornell.png',
+  'Cornell SC Johnson': 'logos/Cornell.png',
   'UPenn': 'logos/Penn.png',
   'UPenn Wharton': 'logos/Penn.png',
   'Berklee': 'logos/Berklee.png',
