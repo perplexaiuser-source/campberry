@@ -187,7 +187,6 @@ const programs = [
   { id: 206, title: 'Public Relations', provider: 'PRSSA', category: 'business', tags: ['Communications', 'Media'], description: 'PR certification.', cost: 'Paid', website: 'https://prssa.org' },
   { id: 207, title: 'Marketing', provider: 'AMA', category: 'business', tags: ['Marketing', 'Digital'], description: 'Marketing cert.', cost: 'Paid', website: 'https://ama.org' },
   { id: 208, title: 'Social Media', provider: 'Hootsuite', category: 'business', tags: ['Marketing', 'Social Media'], description: 'Social media marketing.', cost: 'Paid', website: 'https://hootsuite.com' },
-  { id: 209, title: 'SEO', provider: 'Moz', category: 'coding', tags: ['Marketing', 'Search'], description: 'SEO training.', cost: 'Paid', website: 'https://moz.com' },
   { id: 211, title: 'Machine Learning', provider: 'Fast.ai', category: 'coding', tags: ['AI', 'Deep Learning'], description: 'ML courses.', cost: 'Free', website: 'https://fast.ai' },
   { id: 212, title: 'Cybersecurity', provider: '(ISC)2', category: 'coding', tags: ['Security', 'IT'], description: 'Cybersecurity cert.', cost: 'Paid', website: 'https://isc2.org' },
   { id: 213, title: 'Cloud Computing', provider: 'AWS', category: 'coding', tags: ['Cloud', 'Tech'], description: 'AWS training.', cost: 'Paid', website: 'https://aws.amazon.com' },
