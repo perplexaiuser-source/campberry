@@ -163,7 +163,6 @@ const programs = [
   { id: 147, title: 'Vassar', provider: 'Vassar', category: 'summer', tags: ['Liberal Arts', 'Arts'], description: 'Vassar programs.', cost: '$2,500+', website: 'https://vassar.edu' },
   { id: 148, title: 'Wellesley', provider: 'Wellesley', category: 'summer', tags: ['Liberal Arts', 'Women'], description: 'Wellesley programs.', cost: '$2,500+', website: 'https://wellesley.edu' },
   { id: 178, title: 'Dance', provider: 'Broadway Dance', category: 'arts', tags: ['Dance', 'Performance'], description: 'Dance programs.', cost: 'Paid', website: 'https://broadwaydancecenter.com' },
-  { id: 179, title: 'Photography', provider: 'Photography', category: 'arts', tags: ['Visual Arts', 'Media'], description: 'Photography courses.', cost: 'Paid', website: 'https://precision-camera.com' },
   { id: 184, title: 'Hotel Management', provider: 'Cornell SC Johnson', category: 'business', tags: ['Hospitality', 'Business'], description: 'Hotel management.', cost: 'Paid', website: 'https://sha.cornell.edu' },
   { id: 187, title: 'Insurance', provider: 'CII', category: 'business', tags: ['Finance', 'Insurance'], description: 'Insurance licensing.', cost: 'Paid', website: 'https://cii.org' },
   { id: 188, title: 'Financial Planning', provider: 'CFP', category: 'business', tags: ['Finance', 'Planning'], description: 'Financial planning cert.', cost: 'Paid', website: 'https://cfp.net' },
